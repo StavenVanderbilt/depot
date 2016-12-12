@@ -18,18 +18,18 @@
 
 /* Styles for products/index */
 
-#product_list table {
+#product_list table tbody {
         border-collapse: collapse;
 }
 
-#product_list table tr td {
+#product_list table tbody tr td {
         padding: 5px;
         vertical-align: top;
 }
 
 #product_list .list_image {
-  width:        60px;
-  height:       70px;
+  width:        150px;
+  height:       120px;
 }
 
 #product_list .list_description {
@@ -62,6 +62,14 @@
 
 #product_list .list_line_odd {
   background:   #f8b0f8;
+}
+
+#product_list .list_price strong {
+  font-size: 20px
+}
+
+#product_list .list_actions strong {
+  font-size: 20px
 }
 
 /* An entry in the store catalog */
